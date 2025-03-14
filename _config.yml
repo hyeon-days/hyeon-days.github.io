@@ -1,0 +1,124 @@
+version: "25.0115.0(2)"
+
+title: "Jekylmt"
+description: "A lightweight jekyll theme based on Material 3."
+baseurl: ""
+timezone: "Asia/Shanghai"
+
+author:
+  name: "sendevia"
+  mugshot: "/assets/images/avatar.webp"
+  introduction: "(o゜▽゜)o☆"
+  website: "https://sendevia.top"
+
+color: "#39C5BB"
+impression: "/assets/images/96333231_p0.webp"
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "article"
+      published: true
+  - scope:
+      path: "_pages"
+    values:
+      permalink: "/:basename.html"
+  - scope:
+      path: "_posts"
+    values:
+      permalink: "/posts/:title"
+      toc: true
+
+markdown: "kramdown"
+kramdown:
+  input: "GFM"
+  syntax_highlighter: "rouge"
+  syntax_highlighter_opts:
+    css_class: "highlight"
+    line_numbers: false
+
+webrick:
+  headers:
+    Cache-Control: "must-revalidate"
+
+sass:
+  style: "compressed"
+  sass_dir: "_sass"
+  sourcemap: "always"
+
+jekyll-spaceship:
+  processors:
+    - table-processor
+    - mathjax-processor
+    - plantuml-processor
+    - mermaid-processor
+    - polyfill-processor
+    - element-processor
+  mathjax-processor:
+    src:
+      - https://polyfill.io/v3/polyfill.min.js?features=es6
+      - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+    config:
+      tex:
+        inlineMath:
+          - ["$", "$"]
+          - ['\(', '\)']
+        displayMath:
+          - ["$$", "$$"]
+          - ['\[', '\]']
+      svg:
+        fontCache: "global"
+      options:
+        enableMenu: false
+    optimize:
+      enabled: true
+      include: []
+      exclude: []
+  plantuml-processor:
+    mode: "default"
+    css:
+      class: "plantuml"
+    syntax:
+      code: "plantuml!"
+      custom: ["@startuml", "@enduml"]
+    src: "https://www.plantuml.com/plantuml/svg/"
+  mermaid-processor:
+    mode: "default"
+    css:
+      class: "mermaid"
+    syntax:
+      code: "mermaid!"
+      custom: ["@startmermaid", "@endmermaid"]
+    config:
+      theme: "default"
+    src: "https://mermaid.ink/svg/"
+  element-processor:
+    css:
+      - img:
+          props:
+            loading: "lazy"
+
+exclude:
+  - .gitignore
+  - .jekyll-cache/
+  - .sass-cache/
+  - .typescript
+  - .vscode/
+  - Gemfile
+  - Gemfile.lock
+  - gemfiles/
+  - LICENSE
+  - node_modules/
+  - package-lock.json
+  - package.json
+  - README.MD
+  - sendevia.page.jekyll.code-workspace
+  - tsconfig.json
+  - vendor/
+  - webpack.config.js
+  - babel.config.js
+  - webpack/
+
+include:
+  - _pages/
