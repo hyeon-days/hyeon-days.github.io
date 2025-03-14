@@ -3,7 +3,7 @@
     <script
       type="application/javascript"
       src="/assets/js/bundle.js?v={{ site.version }}"
-      defer />
+      defer></script>
   {% endif %}
   <link rel="stylesheet" href="/assets/css/style.css?v={{ site.version }}">
   <link
@@ -18,5 +18,5 @@
   <title>{{ page.title | default: site.title }}</title>
   {% seo %}
 </head>
-{% assign page_words = page.content | number_of_words: "auto" %}
+{% assign page_words = page.content | number_of_words %}
 {% assign read_estimate = page_words | divided_by: 120 %}
