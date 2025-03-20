@@ -15,7 +15,7 @@ main:
 categories:
   - title: "Activity"
     children:
-      - title: "Extracurricular Activities"
+      - title: "대외활동"
         url: /categories/categories1/
       - title: "School Activies"
         url: /categories/categories2/
