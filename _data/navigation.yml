@@ -13,25 +13,28 @@ main:
 # sidebar navigation (categories)
 # 2022.09.24 sidebar ver2.0 : main-sub version
 categories:
-  - title: "Title1"
+  - title: "Activity"
     children:
-      - title: "Categories1"
+      - title: "대외활동"
         url: /categories/categories1/
-      - title: "Categories2"
+      - title: "행사/세미나"
         url: /categories/categories2/
-      - title: "Categories3"
+      - title: "교내/기타"
         url: /categories/categories3/
-      - title: "Categories4"
-        url: /categories/categories4/
 
-  - title: "Title2"
+  - title: "Study"
     children:
-      - title: "Categories5"
+      - title: "아티클 스터디"
+        url: /categories/categories4/
+      - title: "서비스 탐구"
         url: /categories/categories5/
-      - title: "Categories6"
+
+  - title: "Figma"
+    children:
+      - title: "109일 챌린지"
         url: /categories/categories6/
 
-  - title: "Title3"
+  - title: "Blog"
     children:
-      - title: "Categories7"
+      - title: "운영 일지"
         url: /categories/categories7/
