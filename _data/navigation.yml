@@ -4,14 +4,15 @@ main:
   - title: "About"
     url: /about/
 
-  - title: "Behance"
-    url: https://www.behance.net/4a631659
-
   - title: "Categories"
     url: /categories/
 
-  # - title: "Projects"
-  #   url: /projects/
+  - title: "Behance"
+    url: https://www.behance.net/4a631659
+
+
+  - title: "Projects"
+    url: /projects/
 
 # sidebar navigation (categories)
 # 2022.09.24 sidebar ver2.0 : main-sub version
