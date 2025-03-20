@@ -13,33 +13,30 @@ main:
 # sidebar navigation (categories)
 # 2022.09.24 sidebar ver2.0 : main-sub version
 categories:
-  - title: "Activity"
+  - title: "Title1"
     children:
-      - title: "대외활동"
+      - title: "Categories1"
         url: /categories/categories1/
-      - title: "School Activies"
+      - title: "Categories2"
         url: /categories/categories2/
-      - title: "seminar"
+      - title: "Categories3"
         url: /categories/categories3/
-
-  - title: "Study"
-    children:
-      - title: "Article"
+      - title: "Categories4"
         url: /categories/categories4/
-      - title: "Other Services"
-        url: /categories/categories5/
 
-  - title: "Figma"
+  - title: "Title2"
     children:
-      - title: "100days Challenge"
+      - title: "Categories5"
+        url: /categories/categories5/
+      - title: "Categories6"
         url: /categories/categories6/
 
-  - title: "Daily"
+  - title: "Title3"
     children:
-      - title: "My Diary"
+      - title: "Categories7"
         url: /categories/categories7/
 
   - title: "Blog"
     children:
       - title: "Update Log"
-        url: /categories/categories7/
+        url: /categories/categories8/
