@@ -1,19 +1,17 @@
 # main links
 main:
-  - title: "Home"
-    url: https://choiiis.github.io/
 
   - title: "About"
     url: /about/
 
-  - title: "GitHub"
-    url: https://github.com/choiiis
+  - title: "Behance"
+    url: https://www.behance.net/4a631659
+
+  - title: "Categories"
+    url: /categories/
 
   # - title: "Projects"
   #   url: /projects/
-
-  # - title: "Categories"
-  #   url: /categories/
 
 # sidebar navigation (categories)
 # 2022.09.24 sidebar ver2.0 : main-sub version
