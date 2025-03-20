@@ -1,9 +1,9 @@
 ---
-title: "33333"
+title: "Seminar"
 layout: category
 permalink: /categories/categories3/
 author_profile: true
-taxonomy: Categories3
+taxonomy: Seminar
 sidebar:
   nav: "categories"
 ---
