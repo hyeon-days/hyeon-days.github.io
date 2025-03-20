@@ -175,14 +175,14 @@
 .sidebar .author__name {
   font-family: $menufont;
   /* 2022.01.23 font size & weight change*/
-  font-size: 1em;
+  font-size: 1.5em;
   font-weight: 600;
 }
 
 .author__bio {
   margin: 0;
   font-size: 1em;
-  font-family: $menufont;
+  font-family: "Pretendard", -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', "Montserrat", sans-serif;
   @include breakpoint($large) {
     margin-top: 5px;
     margin-bottom: 10px;
