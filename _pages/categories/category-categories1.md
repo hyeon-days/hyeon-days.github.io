@@ -1,9 +1,9 @@
 ---
 title: "대외활동"
 layout: category
-permalink: /categories/categories1/
+permalink: /categories/대외활동/
 author_profile: true
-taxonomy: Categories1
+taxonomy: 대외활동
 sidebar:
-  nav: "categories"
+  nav: "대외활동"
 ---
