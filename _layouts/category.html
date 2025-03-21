@@ -4,8 +4,6 @@ layout: archive
 
 {{ content }}
 
-<p>🔍 현재 taxonomy 값: <strong>{{ page.taxonomy }}</strong></p>
-
 {% assign entries_layout = page.entries_layout | default: 'list' %}
 <div class="entries-{{ entries_layout }}">
   {% include posts-category.html taxonomy=page.taxonomy type=entries_layout %}
