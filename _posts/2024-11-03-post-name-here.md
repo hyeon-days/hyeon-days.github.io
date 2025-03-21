@@ -3,7 +3,7 @@ title: "[포스팅 예시] 이곳에 제목을 입력하세요"
 excerpt: "본문의 주요 내용을 여기에 입력하세요"
 
 categories: # 카테고리 설정
-  - seminar
+  - Seminar
 tags: # 포스트 태그
   - [tag1, tag2]
 
