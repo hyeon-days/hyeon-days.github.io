@@ -1,7 +1,7 @@
 ---
 title: "seminar"
 layout: category
-permalink: /categories/categories3/
+permalink: /categories/seminar/
 author_profile: true
 taxonomy: seminar
 sidebar:
