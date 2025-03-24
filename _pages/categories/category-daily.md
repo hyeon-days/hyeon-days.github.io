@@ -3,7 +3,7 @@ title: "daily"
 layout: category
 permalink: /categories/daily/
 author_profile: true
-taxonomy: daily
+taxonomy: Daily
 sidebar: 
   nav: "categories"
 ---
