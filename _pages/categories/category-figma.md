@@ -1,5 +1,5 @@
 ---
-title: "figma"
+title: "Figma"
 layout: category
 permalink: /categories/figma/
 author_profile: true
