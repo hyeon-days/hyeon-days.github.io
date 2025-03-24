@@ -1,5 +1,5 @@
 ---
-title: "activities"
+title: "Activities"
 layout: category
 permalink: /categories/activities/
 author_profile: true
