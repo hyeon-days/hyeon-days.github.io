@@ -4,6 +4,5 @@ layout: category
 permalink: /categories/daily/
 author_profile: true
 taxonomy: daily
-sidebar:
-  nav: "Categories"
+sidebar: "Categories"
 ---
