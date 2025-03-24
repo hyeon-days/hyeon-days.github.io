@@ -3,7 +3,7 @@ title: "Figma"
 layout: category
 permalink: /categories/figma/
 author_profile: true
-taxonomy: figma
+taxonomy: Figma
 sidebar:
   nav: "categories"
 ---
