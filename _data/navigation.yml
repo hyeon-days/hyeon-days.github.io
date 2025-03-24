@@ -16,25 +16,25 @@ categories:
   - title: "Life"
     children:
       - title: "Daily"
-        url: /categories/categories1/
+        url: /categories/daily/
       - title: "Activities"
-        url: /categories/categories2/
+        url: /categories/activities/
       - title: "Seminar"
         url: /categories/seminar/
 
   - title: "Study"
     children:
       - title: "Article"
-        url: /categories/categories4/
+        url: /categories/article/
       - title: "Others"
-        url: /categories/categories5/
+        url: /categories/others/
 
   - title: "Design"
     children:
       - title: "Figma"
-        url: /categories/categories7/
+        url: /categories/figma/
 
   - title: "Blog"
     children:
-      - title: "Update Log"
-        url: /categories/categories8/
+      - title: "Update"
+        url: /categories/update/
