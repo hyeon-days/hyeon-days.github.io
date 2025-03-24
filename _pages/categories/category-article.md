@@ -3,7 +3,7 @@ title: "article"
 layout: category
 permalink: /categories/article/
 author_profile: true
-taxonomy: article
+taxonomy: Article
 sidebar:
   nav: "categories"
 ---
