@@ -1,9 +1,9 @@
 ---
-title: "22222"
+title: "activities"
 layout: category
-permalink: /categories/categories2/
+permalink: /categories/activities/
 author_profile: true
-taxonomy: Categories2
+taxonomy: activities
 sidebar:
   nav: "categories"
 ---
