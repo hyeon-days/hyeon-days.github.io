@@ -1,9 +1,9 @@
 ---
-title: "others"
+title: "Others"
 layout: category
 permalink: /categories/others/
 author_profile: true
-taxonomy: others
+taxonomy: Others
 sidebar:
   nav: "categories"
 ---
