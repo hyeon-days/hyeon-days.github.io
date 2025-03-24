@@ -1,5 +1,5 @@
 ---
-title: "대외활동"
+title: "daily"
 layout: category
 permalink: /categories/daily/
 author_profile: true
