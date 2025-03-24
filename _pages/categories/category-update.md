@@ -1,9 +1,9 @@
 ---
-title: "update"
+title: "Update"
 layout: category
 permalink: /categories/update/
 author_profile: true
-taxonomy: update
+taxonomy: Update
 sidebar:
   nav: "categories"
 ---
