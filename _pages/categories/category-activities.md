@@ -3,7 +3,7 @@ title: "Activities"
 layout: category
 permalink: /categories/activities/
 author_profile: true
-taxonomy: activities
+taxonomy: Activities
 sidebar:
   nav: "categories"
 ---
